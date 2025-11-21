@@ -1,17 +1,15 @@
-# MIV - CosmosOS Text Editor
+# Bubblim - CosmosOS Text Editor
 
- - MIV functions are similar to VIM.
+Bubblim is forked from MIV, a text editor for CosmosOS. Bubblim is already a built-in Text Editor in BubbleOS.
+
+ - Bubblim functions and name are similar to VIM.
 
 It is possible to pass argument:
- - miv(null) - open blank page
- - miv(String) - open page with String
+ - bubblim(null) - open blank page
+ - bubblim(String) - open page with String
  
 Possible action inside editor:
  - i (Enter INSERT mode)
  - ESC button (Exit INSERT mode)
  - :wq (Save and Exit), returns String of text
  - :q (Quit without saving), returns null
- 
-How to test MIV Text Editor: https://github.com/bartashevich/MIV/wiki/How-can-I-test-MIV-Text-Editor%3F
-
-Video: https://www.youtube.com/watch?v=1acKL41pZXo
